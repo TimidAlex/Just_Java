@@ -8,4 +8,41 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+
+    <style name = "HeaderTextStyle" >
+
+        <item name="android:layout_width"> wrap_content </item>
+        <item name="android:layout_height">48dp</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textSize">15sp</item>
+    </style>
+
+
+// новая тема
+
+        <!-- inherit from the material theme -->
+        <style name="CoffeeTheme" parent="Theme.AppCompat.Light" >
+            <item name="android:panelFullBackground">@color/colorPrimary</item>
+            <!-- Customize your theme here. -->
+            <item name="colorPrimary">@color/colorMain</item>
+            <item name="colorPrimaryDark">@color/ColorStatusBar</item>
+            <item name="colorAccent">@color/ColorSecondary</item>
+            <item name="android:textColorPrimary">@color/textColorPrimary</item>
+
+
+        </style>
+
+// для кнопок (прозрачная)
+
+    <style name="MyButton" parent="Theme.AppCompat.Light">
+        <item name="colorButtonNormal">@color/ColorSecondary</item>
+        <item name="colorControlHighlight">@color/ColorSecondary</item>
+    </style>
+
+//кнопка отображающаяся
+    <style name="MyRaisedButton" parent="Theme.AppCompat.Light">
+        <item name="colorControlHighlight">#3f51b5</item>
+        <item name="colorButtonNormal">@color/ColorSecondary</item>
+    </style>
 </resources>

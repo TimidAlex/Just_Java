@@ -26,7 +26,7 @@ import static com.example.alexandramukhina.just_java.R.id.checkBoxChoco;
  * This app displays an order form to order coffee.
  */
 public class MainActivity extends AppCompatActivity {
-    int quantity;
+    int quantity = 1;
 
 
     @Override
@@ -67,7 +67,7 @@ public class MainActivity extends AppCompatActivity {
 
         }
 
-//        displayMessage(summary);
+//       displayMessage(summary);
 
 
 
@@ -89,14 +89,14 @@ public class MainActivity extends AppCompatActivity {
 
         if (hasCheckTopping)
             priceOfOrder = priceOfOrder + 1;
-        String message = "\nName: " + addName();
-        message = message + "\nQuantity " + quantity;
-        message = message + "\nTotal: " + priceOfOrder + "\n Add whipped cream? " + hasCheckTopping + "\n" + "Add chocolate? " + hasChechChoko + "\n Thank you!";
+        String message = "\n" + getString(R.string.order_summary_name, addName()) + " " + addName();
+        message = message + "\n " + getString(R.string.TotalQuantity) + " " +  quantity;
+        message = message + "\n" + getString(R.string.TotalOrder) + " $ " + priceOfOrder + "\n" + getString(R.string.AddWhippedCream)+ " " +hasCheckTopping + "\n" + getString(R.string.AddChoko) + " " + hasChechChoko + "\n" + getString(R.string.thank_you);
 
         return message;
     }
 
-//
+
 //    public void displayMessage(String message) {
 //        TextView orderSummaryTextView = (TextView) findViewById(R.id.order_summary_text_view);
 //        orderSummaryTextView.setText(message);

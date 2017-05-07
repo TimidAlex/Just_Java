@@ -1,3 +1,44 @@
-<resources>
-    <string name="app_name">Just_Java</string>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="app_name">Just_Java</string>
+
+<string-array name="names">
+    <item>Igor</item>
+    <item>Alexandra</item>
+    <item>Victoria</item>
+    <item>Ivan Samoa</item>
+    <item>Nikolay</item>
+    <item>Sasha</item>
+    <item>Johnny</item>
+    <item>Bitch</item>
+
+</string-array>
+
+    // Шапка для топпингов
+
+    <string name="toppings">Toppings</string>
+    <string name="chocolate">Chocolate</string>
+    <string name="whipped_cream">Whipped Cream</string>
+// для поля "Спасибо" в итоговом заказе
+    <string name="thank_you">Thank you!</string>
+// чтобы не переводить имя
+    <string name="order_summary_name">Name:<xliff:g id="addName" example = "Amy">%s</xliff:g></string>
+
+    // строка для количества
+    <string name="quantity">Quantity</string>
+    // кнопка заказа
+    <string name="order">Order</string>
+// Добавить взбитых сливок
+    <string name="AddWhippedCream">Add Whipped Cream?</string>
+
+    // Добавить шоколада
+    <string name="AddChoko">Add Chocolate?</string>
+
+    // Итог
+    <string name="OrderSummary">Order Summary</string>
+
+    // Итоговое количество
+    <string name="TotalQuantity">Total Quantity</string>
+
+    // Итоговая сумма
+    <string name="TotalOrder">Total</string>
 </resources>

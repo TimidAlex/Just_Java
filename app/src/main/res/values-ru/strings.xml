@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Просто Джава</string>
+    <string name="thank_you">Спасибо!</string>
+    <string name="toppings">Топпинги!</string>
+    <string name="whipped_cream">Взбитые сливки</string>
+    <string name="chocolate">Шоколад</string>
+    <string name="order_summary_name">Имя</string>
+    <string name="order">Заказ</string>
+    <string name="quantity">Количество</string>
+    <string name="AddWhippedCream">Добавить взбитых сливок?</string>
+    <string name="AddChoko">Добавить шоколад?</string>
+    <string name="OrderSummary">Итого</string>
+    <string name="TotalOrder">Итоговая сумма</string>
+    <string name="TotalQuantity">Итоговое количество</string>
+</resources>
